@@ -1,0 +1,139 @@
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(20, 10, 0)
+}
+
+/* The information panel */
+
+#info {
+    width: 10rem;
+    height: 100vh;
+
+    /*background-image: url(wood-bg.jpg);
+    background-size: 100vw*/
+}
+
+/* The main board */
+
+#game {
+    width: 100vw;
+    height: 87vh;
+
+    background-image: url("../images/Tabuleiro_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#enemy {
+    top: 4rem;
+}
+
+.board {
+    position: relative;
+    left: 54.5%;
+    transform: translateX(-50%);
+
+    height: 35.5vh;
+    width: 29.5vw;
+    
+    /* background-color: blue; */
+
+    display: flex;
+    flex-direction: column;
+}
+
+#player {
+    margin-top: 5rem !important;
+    height: 40vh;
+}
+
+.area {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+
+    height: 100%;
+    width: 90%;
+
+    /*background-color: red;*/
+    margin-top: 0.2rem !important;
+    
+}
+
+#enemy {
+    flex-direction: column-reverse;
+}
+
+#cards-selection {
+    /*background-color: yellow */
+
+    border: 0.25rem rgb(25, 20, 10) solid;
+    border-radius: 0.5rem;
+    background-color: rgb(20, 15, 5);
+    height: 11vh;
+}
+
+.division {
+    height:0
+}
+
+
+/* The cards itself */
+
+.card {
+    transition: border 0.5s;
+
+    height: 90%;
+    width: 5rem;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    box-shadow: 5px 10px 5px rgba(5, 5, 5, 0.1);
+}
+
+.card:hover{
+    border: 0.3rem red solid
+}
+
+
+.level {
+    border: black 0.1rem solid;
+    box-shadow: 2px 2px 3px rgba(5, 5, 5, 0.1);
+
+    position: relative;
+    left: 0.15rem;
+    top: 0.17rem;
+
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+
+    background-color: rgb(255, 250, 240);
+
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+/* Just resetting the things that could annoy the process */
+
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#player #ascaris {
+    width: 100vw
+    
+}
