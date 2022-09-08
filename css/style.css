@@ -21,26 +21,24 @@ body {
 /* The main board */
 
 #game {
-    width: 100vw;
-    height: 87vh;
+    position: relative;
+    transform: translateX(-50%);
+    left: 50%;
 
-    background-image: url("../images/Tabuleiro_1.png");
-    background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
-}
+    background-size: contain;
 
-#enemy {
-    top: 4rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .board {
     position: relative;
-    left: 54.5%;
+    left: 52.5%;
     transform: translateX(-50%);
 
-    height: 35.5vh;
-    width: 29.5vw;
+    height: 50%;
+    width: 61.2%;
     
     /* background-color: blue; */
 
@@ -48,10 +46,6 @@ body {
     flex-direction: column;
 }
 
-#player {
-    margin-top: 5rem !important;
-    height: 40vh;
-}
 
 .area {
     display: flex;
@@ -62,7 +56,7 @@ body {
     left: 50%; 
     transform: translateX(-50%);
 
-    height: 100%;
+    height: 28%;
     width: 90%;
 
     /*background-color: red;*/
@@ -80,7 +74,7 @@ body {
     border: 0.25rem rgb(25, 20, 10) solid;
     border-radius: 0.5rem;
     background-color: rgb(20, 15, 5);
-    height: 11vh;
+    height: 20vh;
 }
 
 .division {
@@ -93,8 +87,8 @@ body {
 .card {
     transition: border 0.5s;
 
-    height: 90%;
-    width: 5rem;
+    height: 95%;
+    width: 4rem;
 
     background-size: 100%;
     background-repeat: no-repeat;
