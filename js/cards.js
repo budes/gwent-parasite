@@ -5,10 +5,10 @@ let cards = [
     //["especiais/higiene.png", "/2", 1, "higiene"],
     //["especiais/inseticida.png", "1p", 1, "inseticida"],
     //["especiais/limpeza.png", "/2", 1, "limpeza"],
-    ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
-    ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
-    ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
-    ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
+    ["especiais/quarto_sujo.png", "x2", 1, "quarto"], //insetos/aracnideos
+    ["especiais/quarto_sujo.png", "x2", 1, "quarto"], //insetos/aracnideos
+    ["especiais/quarto_sujo.png", "x2", 1, "quarto"], //insetos/aracnideos
+    ["especiais/quarto_sujo.png", "x2", 1, "quarto"], //insetos/aracnideos
     //["especiais/remedio_verme.png", "1p", 1, "remedio"],
     //["especiais/repelente.png", "/2", 1, "repelente"],
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
