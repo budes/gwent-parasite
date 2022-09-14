@@ -76,15 +76,19 @@ function boardCreation(source, height) {
     
     /* Obtaining the dimensions of the image */
     const img = new Image();
+    let img_aspect_ratio = 0
+    
     img.src = source
-
-    var img_aspect_ratio = img.width / img.height
-    
-    /* Atributing the values to the dimensions */
-    game_board.style.backgroundImage = 'url("' + source + '")'
-    
-    game_board.style.height = height + "rem"
-    game_board.style.width = img_aspect_ratio * height + "rem"
+    img.onload = function () {
+        console.log(this.width, this.height)
+        img_aspect_ratio = this.width / this.height
+        
+        /* Atributing the values to the dimensions */
+        game_board.style.backgroundImage = 'url("' + source + '")'
+	    
+        game_board.style.height = height + "rem"
+        game_board.style.width = img_aspect_ratio * height + "rem"
+    }
 
 }
 boardCreation("./images/Tabuleiro_3.png", 34)
