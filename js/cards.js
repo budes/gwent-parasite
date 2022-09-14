@@ -14,7 +14,7 @@ let cards = [
     //["especiais/repelente.png", "/2", 1, "repelente"],
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
-    ["especiais/Sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
+    ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
 
