@@ -18,23 +18,23 @@ let cards = [
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
 
-    ["ectoparasitas/aedes_aegypti.png", 10, 2, "aedes"],
-    ["ectoparasitas/amblyomma_cajennense.png", 14, 2, "amblyomma"],
-    ["ectoparasitas/anopheles_darlingi.png", 18, 2, "anopheles"],
-    ["ectoparasitas/lutzomyia_longipalpis.png", 12, 2, "lutzomyia"],
-    ["ectoparasitas/panstrongylus_megistus.png", 20, 2, "panstrongylus"],
-    ["ectoparasitas/pediculus_humanus.png", 12, 2, "pediculus"],
-    ["ectoparasitas/rhodnius_prolixus.png", 16, 2, "rhodnius"],
-    ["ectoparasitas/sarcoptes_scarbiei.png", 14, 2, "sarcoptes"],
-    ["ectoparasitas/triatoma_infestans.png", 12, 2, "triatoma"],
-    ["ectoparasitas/xenopsylla cheopis.png", 16, 2, "xenopsylia"],
+    ["ectoparasita/aedes_aegypti.png", 10, 2, "aedes"],
+    ["ectoparasita/amblyomma_cajennense.png", 14, 2, "amblyomma"],
+    ["ectoparasita/anopheles_darlingi.png", 18, 2, "anopheles"],
+    ["ectoparasita/lutzomyia_longipalpis.png", 12, 2, "lutzomyia"],
+    ["ectoparasita/panstrongylus_megistus.png", 20, 2, "panstrongylus"],
+    ["ectoparasita/pediculus_humanus.png", 12, 2, "pediculus"],
+    ["ectoparasita/rhodnius_prolixus.png", 16, 2, "rhodnius"],
+    ["ectoparasita/sarcoptes_scarbiei.png", 14, 2, "sarcoptes"],
+    ["ectoparasita/triatoma_infestans.png", 12, 2, "triatoma"],
+    ["ectoparasita/xenopsylla cheopis.png", 16, 2, "xenopsylia"],
 
-    ["endoparasitas/ancylostoma_brasiliensis.png", 20, 3, "brasiliensis"],
-    ["endoparasitas/ancylostoma_caninum.png", 10, 3, "caninum"],
-    ["endoparasitas/ascaris_lumbricoides.png", 14, 3, "ascaris"],
-    ["endoparasitas/necator_americanus.png", 18, 3, "necator"],
-    ["endoparasitas/oxyurus_vermicularis.png", 12, 3, "oxyurus"],
-    ["endoparasitas/strongyloides_stercoralis.png", 18, 3, "strongyloides"],
-    ["endoparasitas/trichuris_trichiura.png", 14, 3, "trichuris"],
-    ["endoparasitas/wucheria_bancrofti.png", 20, 3, "wucheria"]
+    ["endoparasita/ancylostoma_brasiliensis.png", 20, 3, "brasiliensis"],
+    ["endoparasita/ancylostoma_caninum.png", 10, 3, "caninum"],
+    ["endoparasita/ascaris_lumbricoides.png", 14, 3, "ascaris"],
+    ["endoparasita/necator_americanus.png", 18, 3, "necator"],
+    ["endoparasita/oxyurus_vermicularis.png", 12, 3, "oxyurus"],
+    ["endoparasita/strongyloides_stercoralis.png", 18, 3, "strongyloides"],
+    ["endoparasita/trichuris_trichiura.png", 14, 3, "trichuris"],
+    ["endoparasita/wucheria_bancrofti.png", 20, 3, "wucheria"]
 ]
