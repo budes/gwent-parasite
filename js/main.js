@@ -27,7 +27,7 @@ function deckCreate() {
         /* It's on the same line, i just thought that it would be easier to read this way */
         html += '<div id="' + pl_deck[i][3] + '" '
         html += 'onclick="Click([' + "'" + pl_deck[i][0].trim() + "', '" + pl_deck[i][1] + "', " + pl_deck[i][2] + ", '" + pl_deck[i][3].trim() + "'" + '])" '
-        html +='style="background-image: url(' + "'../images/cards/" + pl_deck[i][0] + "')" + '" ' + 'class="card">'
+        html +='style="background-image: url(' + "'./images/cards/" + pl_deck[i][0] + "')" + '" ' + 'class="card">'
         
         html += "\t" + '<div class="level">' + pl_deck[i][1] + "</div>"
         html += "</div>"
@@ -43,7 +43,7 @@ function Click(info) {
     var old_area = document.querySelectorAll("#cards-selection #" + info[3])
 
     var new_html = document.querySelectorAll("#player #l" + info[2])[0].innerHTML
-    new_html += '<div id="' + info[2] + '" onclick="Click(' + info[2] + ')" style="background-image: url(' + "'images/cards/"+ info[0] + "')" + '" ' + 'class="card">' + "\n"
+    new_html += '<div id="' + info[2] + '" onclick="Click(' + info[2] + ')" style="background-image: url(' + "'./images/cards/"+ info[0] + "')" + '" ' + 'class="card">' + "\n"
     new_html += "\t" + '<div class="level">' + info[1] + "</div>" + "\n"
     new_html += "</div>" + "\n"
 
@@ -87,7 +87,7 @@ function boardCreation(source, height) {
     game_board.style.width = img_aspect_ratio * height + "rem"
 
 }
-boardCreation("/images/Tabuleiro_3.png", 34)
+boardCreation("./images/Tabuleiro_3.png", 34)
 
 /* The score */
 function changeCardsPoints(layer, action) {
