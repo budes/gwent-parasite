@@ -9,10 +9,8 @@ let cards = [
     ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
     ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
     ["especiais/quarto_sujo.png", "x2", 1, " quarto"], //insetos/aracnideos
-    ["especiais/quarto_sujo.png", "x2", 1, "quarto"], //insetos/aracnideos
     //["especiais/remedio_verme.png", "1p", 1, "remedio"],
     //["especiais/repelente.png", "/2", 1, "repelente"],
-    ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
     ["especiais/sem_saneamento.png", "x2", 1, "saneamento"], //nematodeos
@@ -27,7 +25,7 @@ let cards = [
     ["ectoparasita/rhodnius_prolixus.png", 16, 2, "rhodnius"],
     ["ectoparasita/sarcoptes_scarbiei.png", 14, 2, "sarcoptes"],
     ["ectoparasita/triatoma_infestans.png", 12, 2, "triatoma"],
-    ["ectoparasita/xenopsylla cheopis.png", 16, 2, "xenopsylia"],
+    ["ectoparasita/xenopsylla_cheopis.png", 16, 2, "xenopsylia"],
 
     ["endoparasita/ancylostoma_brasiliensis.png", 20, 3, "brasiliensis"],
     ["endoparasita/ancylostoma_caninum.png", 10, 3, "caninum"],
